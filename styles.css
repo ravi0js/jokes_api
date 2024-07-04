@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(36, 32, 32);
+}
+.container{
+    width: 40vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+.joke_button{
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 10rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+}
